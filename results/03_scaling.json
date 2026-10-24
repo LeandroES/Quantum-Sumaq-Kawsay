@@ -1,0 +1,226 @@
+{
+  "transfer_params": [
+    1.2964296409475478,
+    1.311854534645085,
+    3.48517654093044,
+    1.9824399673571087
+  ],
+  "instances": [
+    {
+      "name": "grid10_s0",
+      "n": 10,
+      "qubo_vars_full": 100,
+      "statevector_bytes_full": 2.028240960365167e+31,
+      "statevector_bytes_subproblem": 8192,
+      "methods": {
+        "local_search": {
+          "costs": [
+            264.0,
+            264.0
+          ],
+          "best": 264.0,
+          "mean": 264.0,
+          "mean_seconds": 0.13702384550015267,
+          "peak_mem_MiB": 132.0703125,
+          "mean_gap_vs_best_pct": 0.0
+        },
+        "simulated_annealing": {
+          "costs": [
+            264.0,
+            264.0
+          ],
+          "best": 264.0,
+          "mean": 264.0,
+          "mean_seconds": 0.3562585384997874,
+          "peak_mem_MiB": 132.0703125,
+          "mean_gap_vs_best_pct": 0.0
+        },
+        "lns_exact_m3": {
+          "costs": [
+            264.0,
+            272.0
+          ],
+          "best": 264.0,
+          "mean": 268.0,
+          "mean_seconds": 0.18461448600010044,
+          "peak_mem_MiB": 132.0703125,
+          "mean_gap_vs_best_pct": 1.5151515151515151
+        },
+        "qaoa_lns_m3": {
+          "costs": [
+            276.0,
+            268.0
+          ],
+          "best": 268.0,
+          "mean": 272.0,
+          "mean_seconds": 34.07837355300012,
+          "peak_mem_MiB": 132.90625,
+          "mean_gap_vs_best_pct": 3.0303030303030303
+        }
+      },
+      "best_known": 264.0
+    },
+    {
+      "name": "grid12_s0",
+      "n": 12,
+      "qubo_vars_full": 144,
+      "statevector_bytes_full": 3.5681192317649e+44,
+      "statevector_bytes_subproblem": 8192,
+      "methods": {
+        "local_search": {
+          "costs": [
+            510.0,
+            510.0
+          ],
+          "best": 510.0,
+          "mean": 510.0,
+          "mean_seconds": 0.24206570349997492,
+          "peak_mem_MiB": 132.90625,
+          "mean_gap_vs_best_pct": 0.0
+        },
+        "simulated_annealing": {
+          "costs": [
+            516.0,
+            510.0
+          ],
+          "best": 510.0,
+          "mean": 513.0,
+          "mean_seconds": 0.5199120639999819,
+          "peak_mem_MiB": 132.90625,
+          "mean_gap_vs_best_pct": 0.5882352941176471
+        },
+        "lns_exact_m3": {
+          "costs": [
+            516.0,
+            512.0
+          ],
+          "best": 512.0,
+          "mean": 514.0,
+          "mean_seconds": 0.3218518880000829,
+          "peak_mem_MiB": 132.90625,
+          "mean_gap_vs_best_pct": 0.7843137254901961
+        },
+        "qaoa_lns_m3": {
+          "costs": [
+            516.0,
+            512.0
+          ],
+          "best": 512.0,
+          "mean": 514.0,
+          "mean_seconds": 41.989480789000254,
+          "peak_mem_MiB": 132.90625,
+          "mean_gap_vs_best_pct": 0.7843137254901961
+        }
+      },
+      "best_known": 510.0
+    },
+    {
+      "name": "grid14_s0",
+      "n": 14,
+      "qubo_vars_full": 196,
+      "statevector_bytes_full": 1.6069380442589903e+60,
+      "statevector_bytes_subproblem": 8192,
+      "methods": {
+        "local_search": {
+          "costs": [
+            772.0,
+            770.0
+          ],
+          "best": 770.0,
+          "mean": 771.0,
+          "mean_seconds": 0.3333429230001457,
+          "peak_mem_MiB": 132.90625,
+          "mean_gap_vs_best_pct": 2.526595744680851
+        },
+        "simulated_annealing": {
+          "costs": [
+            782.0,
+            752.0
+          ],
+          "best": 752.0,
+          "mean": 767.0,
+          "mean_seconds": 0.5203607405001094,
+          "peak_mem_MiB": 132.90625,
+          "mean_gap_vs_best_pct": 1.9946808510638299
+        },
+        "lns_exact_m3": {
+          "costs": [
+            752.0,
+            802.0
+          ],
+          "best": 752.0,
+          "mean": 777.0,
+          "mean_seconds": 0.30304895599988413,
+          "peak_mem_MiB": 132.90625,
+          "mean_gap_vs_best_pct": 3.324468085106383
+        },
+        "qaoa_lns_m3": {
+          "costs": [
+            792.0,
+            770.0
+          ],
+          "best": 770.0,
+          "mean": 781.0,
+          "mean_seconds": 50.050639404999856,
+          "peak_mem_MiB": 132.90625,
+          "mean_gap_vs_best_pct": 3.856382978723404
+        }
+      },
+      "best_known": 752.0
+    },
+    {
+      "name": "grid16_s0",
+      "n": 16,
+      "qubo_vars_full": 256,
+      "statevector_bytes_full": 1.8526734277970591e+78,
+      "statevector_bytes_subproblem": 8192,
+      "methods": {
+        "local_search": {
+          "costs": [
+            1092.0,
+            1090.0
+          ],
+          "best": 1090.0,
+          "mean": 1091.0,
+          "mean_seconds": 0.6336570595001376,
+          "peak_mem_MiB": 132.90625,
+          "mean_gap_vs_best_pct": 0.4604051565377532
+        },
+        "simulated_annealing": {
+          "costs": [
+            1098.0,
+            1090.0
+          ],
+          "best": 1090.0,
+          "mean": 1094.0,
+          "mean_seconds": 0.7576781615000527,
+          "peak_mem_MiB": 132.90625,
+          "mean_gap_vs_best_pct": 0.7366482504604052
+        },
+        "lns_exact_m3": {
+          "costs": [
+            1120.0,
+            1088.0
+          ],
+          "best": 1088.0,
+          "mean": 1104.0,
+          "mean_seconds": 0.39784045650003463,
+          "peak_mem_MiB": 132.90625,
+          "mean_gap_vs_best_pct": 1.6574585635359116
+        },
+        "qaoa_lns_m3": {
+          "costs": [
+            1086.0,
+            1102.0
+          ],
+          "best": 1086.0,
+          "mean": 1094.0,
+          "mean_seconds": 57.05843973500032,
+          "peak_mem_MiB": 132.90625,
+          "mean_gap_vs_best_pct": 0.7366482504604052
+        }
+      },
+      "best_known": 1086.0
+    }
+  ]
+}

@@ -1,0 +1,420 @@
+{
+  "seed": 7,
+  "shots": 4096,
+  "instances": {
+    "3": {
+      "brute_force": {
+        "perm": [
+          0,
+          1,
+          2
+        ],
+        "cost": 24.0,
+        "seconds": 0.00010895699995217001
+      },
+      "local_search": {
+        "perm": [
+          0,
+          1,
+          2
+        ],
+        "cost": 24.0,
+        "seconds": 0.0012345860000095854,
+        "starts": 20
+      },
+      "qaoa": [
+        {
+          "reps": 1,
+          "lam": 49.0,
+          "objective": "cvar",
+          "params": [
+            -0.3556039741746751,
+            0.01075602768058825
+          ],
+          "n_qubits": 9,
+          "n_evals": 450,
+          "opt_seconds": 1.4798918120000053,
+          "shots": 4096,
+          "feasible_fraction": 0.117431640625,
+          "prob_optimal": 0.03515625,
+          "best_perm": [
+            0,
+            1,
+            2
+          ],
+          "best_cost": 24.0,
+          "best_energy_sampled": 24.0,
+          "expected_energy": 192.1367326634213,
+          "circuit_depth": 18,
+          "two_qubit_gates": 36,
+          "extra": {},
+          "lambda_factor": 1.0
+        },
+        {
+          "reps": 2,
+          "lam": 49.0,
+          "objective": "cvar",
+          "params": [
+            1.1959238546556281,
+            1.835326657993507,
+            0.006035618694138936,
+            0.014543481707330613
+          ],
+          "n_qubits": 9,
+          "n_evals": 430,
+          "opt_seconds": 2.2961765169999353,
+          "shots": 4096,
+          "feasible_fraction": 0.304931640625,
+          "prob_optimal": 0.111083984375,
+          "best_perm": [
+            0,
+            1,
+            2
+          ],
+          "best_cost": 24.0,
+          "best_energy_sampled": 24.0,
+          "expected_energy": 110.65634437898211,
+          "circuit_depth": 29,
+          "two_qubit_gates": 72,
+          "extra": {},
+          "lambda_factor": 1.0
+        },
+        {
+          "reps": 3,
+          "lam": 49.0,
+          "objective": "cvar",
+          "params": [
+            -0.21388399096232563,
+            1.4708662302027928,
+            1.3322276667510276,
+            0.0062066903299686695,
+            0.004992059050395313,
+            0.004129718146474289
+          ],
+          "n_qubits": 9,
+          "n_evals": 450,
+          "opt_seconds": 3.3565976209999917,
+          "shots": 4096,
+          "feasible_fraction": 0.271240234375,
+          "prob_optimal": 0.09423828125,
+          "best_perm": [
+            2,
+            1,
+            0
+          ],
+          "best_cost": 24.0,
+          "best_energy_sampled": 24.0,
+          "expected_energy": 141.896269408879,
+          "circuit_depth": 40,
+          "two_qubit_gates": 108,
+          "extra": {},
+          "lambda_factor": 1.0
+        },
+        {
+          "reps": 2,
+          "lam": 12.25,
+          "objective": "cvar",
+          "params": [
+            1.1873713042469929,
+            1.8423222852472114,
+            0.012453992277142332,
+            0.04892587812063552
+          ],
+          "n_qubits": 9,
+          "n_evals": 392,
+          "opt_seconds": 2.326659395999968,
+          "shots": 4096,
+          "feasible_fraction": 0.16845703125,
+          "prob_optimal": 0.06640625,
+          "best_perm": [
+            0,
+            1,
+            2
+          ],
+          "best_cost": 24.0,
+          "best_energy_sampled": 24.0,
+          "expected_energy": 46.663161040847285,
+          "circuit_depth": 29,
+          "two_qubit_gates": 72,
+          "extra": {},
+          "lambda_factor": 0.25
+        },
+        {
+          "reps": 2,
+          "lam": 24.5,
+          "objective": "cvar",
+          "params": [
+            1.1420795185417674,
+            1.8541495620633697,
+            0.007772835731296799,
+            0.027988293111623735
+          ],
+          "n_qubits": 9,
+          "n_evals": 450,
+          "opt_seconds": 2.511690190000081,
+          "shots": 4096,
+          "feasible_fraction": 0.25830078125,
+          "prob_optimal": 0.0927734375,
+          "best_perm": [
+            2,
+            1,
+            0
+          ],
+          "best_cost": 24.0,
+          "best_energy_sampled": 24.0,
+          "expected_energy": 64.5288457234023,
+          "circuit_depth": 29,
+          "two_qubit_gates": 72,
+          "extra": {},
+          "lambda_factor": 0.5
+        },
+        {
+          "reps": 2,
+          "lam": 49.0,
+          "objective": "expectation",
+          "params": [
+            1.2410386351592801,
+            1.4665911873194426,
+            0.006834967125049561,
+            0.003152366162189112
+          ],
+          "n_qubits": 9,
+          "n_evals": 450,
+          "opt_seconds": 2.3391085419999627,
+          "shots": 4096,
+          "feasible_fraction": 0.14697265625,
+          "prob_optimal": 0.047607421875,
+          "best_perm": [
+            0,
+            1,
+            2
+          ],
+          "best_cost": 24.0,
+          "best_energy_sampled": 24.0,
+          "expected_energy": 134.313367022051,
+          "circuit_depth": 29,
+          "two_qubit_gates": 72,
+          "extra": {},
+          "lambda_factor": 1.0
+        }
+      ],
+      "lambda_safe": 49.0,
+      "random": {
+        "feasible_fraction": 0.01025390625,
+        "prob_optimal": 0.00341796875,
+        "best_cost": 24.0
+      }
+    },
+    "4": {
+      "brute_force": {
+        "perm": [
+          1,
+          2,
+          3,
+          0
+        ],
+        "cost": 32.0,
+        "seconds": 0.00011591200006932922
+      },
+      "local_search": {
+        "perm": [
+          2,
+          1,
+          0,
+          3
+        ],
+        "cost": 32.0,
+        "seconds": 0.003740696000022581,
+        "starts": 20
+      },
+      "qaoa": [
+        {
+          "reps": 1,
+          "lam": 133.0,
+          "objective": "cvar",
+          "params": [
+            2.696948715681187,
+            0.0019054017955018629
+          ],
+          "n_qubits": 16,
+          "n_evals": 300,
+          "opt_seconds": 26.548547482999993,
+          "shots": 4096,
+          "feasible_fraction": 0.03125,
+          "prob_optimal": 0.00341796875,
+          "best_perm": [
+            2,
+            1,
+            0,
+            3
+          ],
+          "best_cost": 32.0,
+          "best_energy_sampled": 32.0,
+          "expected_energy": 577.4567994853369,
+          "circuit_depth": 29,
+          "two_qubit_gates": 96,
+          "extra": {},
+          "lambda_factor": 1.0
+        },
+        {
+          "reps": 2,
+          "lam": 133.0,
+          "objective": "cvar",
+          "params": [
+            1.334007918773416,
+            1.3181803405980264,
+            0.0018607799639384086,
+            0.00032151657614593455
+          ],
+          "n_qubits": 16,
+          "n_evals": 300,
+          "opt_seconds": 65.373592734,
+          "shots": 4096,
+          "feasible_fraction": 0.035400390625,
+          "prob_optimal": 0.002685546875,
+          "best_perm": [
+            2,
+            1,
+            0,
+            3
+          ],
+          "best_cost": 32.0,
+          "best_energy_sampled": 32.0,
+          "expected_energy": 555.423744759315,
+          "circuit_depth": 47,
+          "two_qubit_gates": 192,
+          "extra": {},
+          "lambda_factor": 1.0
+        },
+        {
+          "reps": 3,
+          "lam": 133.0,
+          "objective": "cvar",
+          "params": [
+            0.0747787922556357,
+            1.1269608043461021,
+            1.348627100064666,
+            0.000969655852771951,
+            0.0011460069296389127,
+            0.001182853742043415
+          ],
+          "n_qubits": 16,
+          "n_evals": 300,
+          "opt_seconds": 315.24692278400005,
+          "shots": 4096,
+          "feasible_fraction": 0.0546875,
+          "prob_optimal": 0.00537109375,
+          "best_perm": [
+            1,
+            2,
+            3,
+            0
+          ],
+          "best_cost": 32.0,
+          "best_energy_sampled": 32.0,
+          "expected_energy": 633.7657831204481,
+          "circuit_depth": 65,
+          "two_qubit_gates": 288,
+          "extra": {},
+          "lambda_factor": 1.0
+        },
+        {
+          "reps": 2,
+          "lam": 33.25,
+          "objective": "cvar",
+          "params": [
+            1.1458501677341684,
+            1.4723315847770913,
+            0.005355206076654866,
+            0.0015761774111023882
+          ],
+          "n_qubits": 16,
+          "n_evals": 300,
+          "opt_seconds": 231.47128543200006,
+          "shots": 4096,
+          "feasible_fraction": 0.019287109375,
+          "prob_optimal": 0.00146484375,
+          "best_perm": [
+            2,
+            1,
+            0,
+            3
+          ],
+          "best_cost": 32.0,
+          "best_energy_sampled": 32.0,
+          "expected_energy": 161.4277661041462,
+          "circuit_depth": 47,
+          "two_qubit_gates": 192,
+          "extra": {},
+          "lambda_factor": 0.25
+        },
+        {
+          "reps": 2,
+          "lam": 66.5,
+          "objective": "cvar",
+          "params": [
+            1.2808467510432688,
+            1.3572027683699752,
+            0.0033298684394038034,
+            0.0006508002196568112
+          ],
+          "n_qubits": 16,
+          "n_evals": 300,
+          "opt_seconds": 299.7718860759999,
+          "shots": 4096,
+          "feasible_fraction": 0.034423828125,
+          "prob_optimal": 0.002197265625,
+          "best_perm": [
+            2,
+            1,
+            0,
+            3
+          ],
+          "best_cost": 32.0,
+          "best_energy_sampled": 32.0,
+          "expected_energy": 290.680497661742,
+          "circuit_depth": 47,
+          "two_qubit_gates": 192,
+          "extra": {},
+          "lambda_factor": 0.5
+        },
+        {
+          "reps": 2,
+          "lam": 133.0,
+          "objective": "expectation",
+          "params": [
+            1.091096224360034,
+            1.5831281733417726,
+            0.0014643272191390915,
+            0.00028958908667570614
+          ],
+          "n_qubits": 16,
+          "n_evals": 300,
+          "opt_seconds": 537.07656258,
+          "shots": 4096,
+          "feasible_fraction": 0.019287109375,
+          "prob_optimal": 0.00146484375,
+          "best_perm": [
+            2,
+            1,
+            0,
+            3
+          ],
+          "best_cost": 32.0,
+          "best_energy_sampled": 32.0,
+          "expected_energy": 542.8735510464937,
+          "circuit_depth": 47,
+          "two_qubit_gates": 192,
+          "extra": {},
+          "lambda_factor": 1.0
+        }
+      ],
+      "lambda_safe": 133.0,
+      "random": {
+        "feasible_fraction": 0.000732421875,
+        "prob_optimal": 0.0,
+        "best_cost": 44.0
+      }
+    }
+  }
+}
